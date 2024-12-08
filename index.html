@@ -4,7 +4,7 @@
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="css/master.css">
 
@@ -18,9 +18,9 @@
             </div>
             <ul>
                     <li><a href="#home">Home</a></li>
-                    <li>About</li>
-                    <li>Project</li>
-                    <li>Services</li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#services">Services</a></li>
             </ul>
             
             <div class="social">
@@ -33,12 +33,12 @@
     <main>
         <section id="home">
             <div class="content">
-                <h1>Hi, I'm [Your Name], a Passionate Web Developer</h1>
-                <h4>Crafting seamless, user-friendly web experiences with modern technologies.</h4>
+                <h1>Hi, I'm [Your Name], <br> a Passionate Web Developer</h1>
+                <p>Crafting seamless, user-friendly web experiences with modern technologies.</p>
                 <button>View My Work</button>
             </div>
             <div class="image">
-                <img src="images/home.png" alt="home">
+                <img src="images/profile-pic.png" alt="home">
             </div>
         </section>
         <section id="link">
@@ -48,61 +48,62 @@
                 <li>Contact</li>
             </ul>
         </section>
-        <section>
+        <section id="about">
             <div class="about">
                 <div class="image">
-                    <img src="images/about.png" alt="about">
+                    <img src="images/profile-pic.png" alt="about">
                 </div>
                 <div class="content">
                     <h1>About Me</h1>
                     <p>I'm a dedicated and innovative web developer with a strong background in front-end and back-end technologies. I specialize in building responsive websites that provide an exceptional user experience. With a passion for learning, I continuously seek to enhance my skills and stay updated with the latest trends in the tech industry.</p>
                     <button>Learn More</button>
                 </div>
-                <div class="skills-container">
-                    <div class="skill">
-                        <label for="html">HTML</label>
-                        <div class="skill-bar">
-                            <div class="skill-level html" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <label for="css">CSS</label>
-                        <div class="skill-bar">
-                            <div class="skill-level css" style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <label for="javascript">JavaScript</label>
-                        <div class="skill-bar">
-                            <div class="skill-level javascript" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <label for="react">React</label>
-                        <div class="skill-bar">
-                            <div class="skill-level react" style="width: 75%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <label for="nodejs">Nodejs</label>
-                        <div class="skill-bar">
-                            <div class="skill-level react" style="width: 70%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <label for="git">Git</label>
-                        <div class="skill-bar">
-                            <div class="skill-level react" style="width: 75%;"></div>
-                        </div>
+                
+            </div>
+            <!-- <div class="skills-container">
+                <div class="skill">
+                    <label for="html">HTML</label>
+                    <div class="skill-bar">
+                        <div class="skill-level html" style="width: 90%;"></div>
                     </div>
                 </div>
-            </div>
+                <div class="skill">
+                    <label for="css">CSS</label>
+                    <div class="skill-bar">
+                        <div class="skill-level css" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label for="javascript">JavaScript</label>
+                    <div class="skill-bar">
+                        <div class="skill-level javascript" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label for="react">React</label>
+                    <div class="skill-bar">
+                        <div class="skill-level react" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label for="nodejs">Nodejs</label>
+                    <div class="skill-bar">
+                        <div class="skill-level react" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label for="git">Git</label>
+                    <div class="skill-bar">
+                        <div class="skill-level react" style="width: 75%;"></div>
+                    </div>
+                </div>
+            </div> -->
         </section>
         <section id="project">
             <h1>My Work</h1>
             <div class="project-container">
                 <div class="project-card">
-                    <img src="images/project1.png" alt="project1">
+                    <img src="images/E-commerce.png" alt="project1">
                     <h3>E-commerce Website Design</h3>
                     <p>Designed and developed a fully functional e-commerce website with integrated payment systems, product listings, and shopping cart functionality</p>
                     <div class="techused">
@@ -114,7 +115,7 @@
                     <button>View Project</button>
                 </div>
                 <div class="project-card">
-                    <img src="images/project2.png" alt="project2">
+                    <img src="images/Personal-Blog.png" alt="project2">
                     <h3>Personal Blog Platform</h3>
                     <p>Built a blog platform with features for user registration, post creation, and comment sections, enabling a personalized blogging experience.</p>
                     <div class="techused">
@@ -125,7 +126,7 @@
                     <button>View Project</button>
                 </div>
                 <div class="project-card">
-                    <img src="images/project3.png" alt="project3">
+                    <img src="images/Photography-Portfolio.png" alt="project3">
                     <h3>Photography Portfolio</h3>
                     <p>A clean and minimal portfolio for a photographer, showcasing images and allowing for easy navigation between photo galleries.</p>
                     <div class="techused">
@@ -138,20 +139,20 @@
                 </div>
             </div>
         </section>
-        <section id="service">
+        <section id="services">
             <h1>What I Do</h1>
-            <div class="service-container">
-                <div class="service">
+            <div class="services-container">
+                <div class="service-card">
                     <img src="images/service1.png" alt="service1">
                     <h3>Web Development</h3>
                     <p>Building responsive, mobile-first websites using modern technologies like HTML5, CSS3, JavaScript, and React.</p>
                 </div>
-                <div class="service">
+                <div class="service-card">
                     <img src="images/service2.png" alt="service2">
                     <h3>UI/UX Design</h3>
                     <p>Creating visually appealing and user-friendly designs with a focus on user experience.</p>
                 </div>
-                <div class="service">
+                <div class="service-card">
                     <img src="images/service3.png" alt="service3">
                     <h3>Consulting & Strategy</h3>
                     <p>Helping businesses improve their digital presence through effective strategies and technical advice.</p>

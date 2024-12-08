@@ -4,11 +4,212 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /* color: #ffffff; */
 }
 body {
     background-color: #d7d7d7;
     color: black;
 }
+
+/* ------------------------- */
+/* home section design start */
+/* ------------------------- */
+#home{
+    padding: 4rem 0;
+    display: flex;
+    background-color: #7B7E83;
+    align-items: center;
+    justify-content: space-around;
+}
+#home .content{
+    max-width: 50%;
+}
+.content h1{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    color: #ffffff;
+}
+.content p{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #ffffff;
+}
+
+.content button{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #6E757D;
+    color: #ffffff;
+    border: 1px solid #4E545A;
+    /* border-radius: 5px; */
+    cursor: pointer;
+}
+#home .image{
+    width: 280px;
+    height: 280px;
+}
+
+#home .image img{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+}
+/* ---------------------------- */
+/*   home section design end    */
+/* ---------------------------- */
+
+/* ---------------------------- */
+/*   link section design start  */
+/* ---------------------------- */
+
+#link{
+    padding: 1.5rem 0;
+    background-color: #273343;
+}
+
+#link ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ---------------------------- */
+/*   link section design end  */
+/* ---------------------------- */
+
+
+/* ---------------------------- */
+/*   about section design start  */
+/* ---------------------------- */
+
+#about{
+    padding: 4rem 0;
+    /* display: flex; */
+    background-color: #FEFEFE;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#about .image{
+    width: 280px;
+    height: 280px;
+}
+#about .image img{
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+}
+#about .content{
+    max-width: 50%;
+}
+#about .content h1{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    color: #273343;
+}
+#about .content p{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #273343;
+}
+
+/* ---------------------------- */
+/*   about section design end  */
+/* ---------------------------- */
+
+/* ---------------------------- */
+/*   project section design start  */
+/* ---------------------------- */
+
+#project{
+    padding: 4rem 0;
+    /* background-color: #7B7E83; */
+    color: #ffffff;
+}
+#project h1{
+    font-size: 2rem;
+    color: #273343;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project-card{
+    width: 300px;
+    margin: 1rem;
+    /* background-color: #273343; */
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.project-card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.project-card h3{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #273343;
+}
+.project-card p{
+    font-size: 1rem;
+    color: #273343;
+}
+.project-card button{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #273343;
+    color: #ffffff;
+    border: 1px solid #273343;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ---------------------------- */
+/*   project section design end  */
+/* ---------------------------- */
+
+/* ---------------------------- */
+/*   service section design start  */
+/* ---------------------------- */
+
+#services{
+    padding: 4rem 0;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+#services h1{
+    font-size: 2rem;
+    color: #273343;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service-card{
+    width: 300px;
+    margin: 1rem;
+    background-color: #273343;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------------------------- */
+/*   service section design end  */
+/* ---------------------------- */
 .skills-container {
     margin: 20px 0;
     padding: 20px;
@@ -66,12 +267,9 @@ nav ul li{
 .social i{
     color: #ffffff;
 }
-#home{
-    background-color: #7B7E83;
-}
-#link{
-    background-color: #273343;
-}
+
+
+
 
 .html {
     background-color: #f15c56; 
